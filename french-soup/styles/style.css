@@ -1,9 +1,78 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
-}
-/*Import the font and set the default size*/
-html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+} 
+
+main {
+  
+  font-size: 18px;
+  line-height: 3em;
+  font-weight: normal;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  color: C6C6C4;
+  }
+
+  #FrenchOnionSoupPic {
+  background-size: cover;
+  background-position: 0% 90%;
+  height: 600px;
+  background-image: url('../images/soup.jpg');
+  }
+
+  h1 {
+  font-weight: normal;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+}
+
+aside {
+  margin: 80px auto 0px;
+  text-align: left;
+  font-size: 1.6em;
+  font-weight: normal;
+  color: C6C6C4;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  size: 50%
+}
+
+hr { 
+  width:100%; 
+  height:1px; 
+  background: #fff;
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -35px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: 25px;
+}
+
+ol {
+  margin: 0;
+}
+ol.dashed > li {
+  text-indent: -35px;
+}
+ol.parentheses > li::after {
+  content: ")";
+  text-indent: -25px;
 }
